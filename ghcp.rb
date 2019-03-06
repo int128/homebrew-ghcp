@@ -6,7 +6,7 @@ class Ghcp < Formula
   sha256 "ef01e05612c4ad8a6d92426ca9a8b1c2646b180b0b2d484fecb6f39c74202761"
 
   def install
-    bin.install "ghcp"
+    bin.install "ghcp_darwin_amd64" => "ghcp"
   end
 
   test do
