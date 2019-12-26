@@ -1,12 +1,12 @@
 class Ghcp < Formula
-  desc "Copy files to a repository using GitHub API"
+  desc "Commit files to a repository using GitHub API without git configuration"
   homepage "https://github.com/int128/ghcp"
-  url "https://github.com/int128/ghcp/releases/download/v1.5.0/ghcp_darwin_amd64"
-  version "v1.5.0"
-  sha256 "540783e2080d249092b53b7c9bfe1b1424c8899d261c7e4c271ca487518f7fc2"
+  url "https://github.com/int128/ghcp/releases/download/v1.5.1/ghcp_darwin_amd64.zip"
+  version "v1.5.1"
+  sha256 "bb97960644310572576f8586ac82d49b3896f847006aff10c1c6ac7f2078290a"
 
   def install
-    bin.install "ghcp_darwin_amd64" => "ghcp"
+    bin.install "ghcp"
   end
 
   test do
